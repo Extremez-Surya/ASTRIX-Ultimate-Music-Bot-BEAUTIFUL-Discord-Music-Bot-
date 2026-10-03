@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment Secrets
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Database Storage Files
+src/database/data/*.bread*
+*.bread
+*.bread-wal
+*.bread-shm
+*.db
+*.sqlite
+
+# OS and Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+test.js
